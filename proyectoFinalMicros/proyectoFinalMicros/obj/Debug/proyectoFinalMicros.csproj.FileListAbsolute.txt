@@ -1,0 +1,14 @@
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\bin\Debug\proyectoFinalMicros.exe.config
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\bin\Debug\proyectoFinalMicros.exe
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\bin\Debug\proyectoFinalMicros.pdb
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.csproj.AssemblyReference.cache
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.csproj.SuggestedBindingRedirects.cache
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Form1.resources
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Properties.Resources.resources
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.csproj.GenerateResource.cache
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.csproj.CoreCompileInputs.cache
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.exe
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.pdb
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormPuertoSerial.resources
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormModoAutomatico.resources
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormModoManual.resources
