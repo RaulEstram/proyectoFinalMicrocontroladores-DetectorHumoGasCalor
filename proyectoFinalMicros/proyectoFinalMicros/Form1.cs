@@ -35,7 +35,7 @@ namespace proyectoFinalMicros
         // variables para imagenes
         public static bool estadoGas = false;
         public static bool estadoBuzzer = false;
-        public static string estadoLed = 'V';
+        public static string estadoLed = "V";
 
         public Form1(){
             InitializeComponent();

@@ -354,6 +354,7 @@
             this.labelTemperatura.AutoSize = true;
             this.labelTemperatura.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTemperatura.Font = new System.Drawing.Font("Georgia", 15F);
+            this.labelTemperatura.ForeColor = System.Drawing.Color.Black;
             this.labelTemperatura.Location = new System.Drawing.Point(130, 0);
             this.labelTemperatura.Name = "labelTemperatura";
             this.labelTemperatura.Size = new System.Drawing.Size(122, 118);
@@ -410,6 +411,7 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Georgia", 15.75F);
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(255, 30);
@@ -422,6 +424,7 @@
             this.labelGas.AutoSize = true;
             this.labelGas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelGas.Font = new System.Drawing.Font("Georgia", 12F);
+            this.labelGas.ForeColor = System.Drawing.Color.Black;
             this.labelGas.Location = new System.Drawing.Point(3, 125);
             this.labelGas.Name = "labelGas";
             this.labelGas.Size = new System.Drawing.Size(255, 30);
