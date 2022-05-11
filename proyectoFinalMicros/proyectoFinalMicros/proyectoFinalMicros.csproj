@@ -113,5 +113,14 @@
   <ItemGroup>
     <None Include="Resources\LUZ VERDE.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temperatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buzzerDesactivado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoke.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

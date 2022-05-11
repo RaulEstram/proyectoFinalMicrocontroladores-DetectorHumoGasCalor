@@ -24,9 +24,18 @@ namespace proyectoFinalMicros
         public static bool conectado = false;
 
         // variables para form del modo manual y automatico
+        // imagenes
         public static Bitmap imgLuzVerde = new Bitmap(Application.StartupPath + "\\img\\luzVerde.png");
         public static Bitmap imgLuzAmarillo = new Bitmap(Application.StartupPath + "\\img\\luzAmarilla.png");
         public static Bitmap imgLuzRojo = new Bitmap(Application.StartupPath + "\\img\\luzRoja.png");
+        public static Bitmap buzzerActivo = new Bitmap(Application.StartupPath + "\\img\\buzzerActivo.png");
+        public static Bitmap buzzerDesactivado = new Bitmap(Application.StartupPath + "\\img\\buzzerDesactivado.png");
+        public static Bitmap smokeNormal = new Bitmap(Application.StartupPath + "\\img\\smoke.png");
+        public static Bitmap fire = new Bitmap(Application.StartupPath + "\\img\\fire.png");
+        // variables para imagenes
+        public static bool estadoGas = false;
+        public static bool estadoBuzzer = false;
+        public static string estadoLed = 'V';
 
         public Form1(){
             InitializeComponent();
@@ -47,6 +56,9 @@ namespace proyectoFinalMicros
             openChildForm(new Forms.FormModoAutomatico(), sender);
             buttonSelected();
             buttonMenuAutomatico.BackColor = Color.FromArgb(213,40,42);
+            if (conectado) {
+                serialPortMain.Write("A");
+            }
         }
 
         private void buttonMenuManual_Click(object sender, EventArgs e)
@@ -55,6 +67,10 @@ namespace proyectoFinalMicros
             openChildForm(new Forms.FormModoManual(), sender);
             buttonSelected();
             buttonMenuManual.BackColor = Color.FromArgb(213, 40, 42);
+            if (conectado)
+            {
+                serialPortMain.Write("M");
+            }
         }
 
         // funcion para abrir un form

@@ -63,6 +63,16 @@ namespace proyectoFinalMicros.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buzzerDesactivado {
+            get {
+                object obj = ResourceManager.GetObject("buzzerDesactivado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
@@ -76,6 +86,26 @@ namespace proyectoFinalMicros.Properties {
         internal static System.Drawing.Bitmap LUZ_VERDE {
             get {
                 object obj = ResourceManager.GetObject("LUZ VERDE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smoke {
+            get {
+                object obj = ResourceManager.GetObject("smoke", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap temperatura {
+            get {
+                object obj = ResourceManager.GetObject("temperatura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
