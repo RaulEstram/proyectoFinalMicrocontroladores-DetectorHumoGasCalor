@@ -12,3 +12,4 @@ C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyec
 C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormPuertoSerial.resources
 C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormModoAutomatico.resources
 C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.FormModoManual.resources
+C:\micro\Proyecto Final\proyectoFinalMicros\proyectoFinalMicros\obj\Debug\proyectoFinalMicros.Forms.Otros.resources

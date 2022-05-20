@@ -39,9 +39,12 @@
             this.labelTituloPrincipal = new System.Windows.Forms.Label();
             this.panelDesktopPanel = new System.Windows.Forms.Panel();
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonCloseForms = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelHeader.SuspendLayout();
+            this.panelDesktopPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -73,6 +76,7 @@
             this.buttonMenuOtros.TabIndex = 4;
             this.buttonMenuOtros.Text = "Otros";
             this.buttonMenuOtros.UseVisualStyleBackColor = false;
+            this.buttonMenuOtros.Click += new System.EventHandler(this.buttonMenuOtros_Click);
             // 
             // buttonMenuManual
             // 
@@ -158,12 +162,23 @@
             // panelDesktopPanel
             // 
             this.panelDesktopPanel.BackColor = System.Drawing.Color.White;
+            this.panelDesktopPanel.Controls.Add(this.pictureBox1);
             this.panelDesktopPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPanel.ForeColor = System.Drawing.Color.Cornsilk;
             this.panelDesktopPanel.Location = new System.Drawing.Point(150, 100);
             this.panelDesktopPanel.Name = "panelDesktopPanel";
             this.panelDesktopPanel.Size = new System.Drawing.Size(584, 361);
             this.panelDesktopPanel.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyectoFinalMicros.Properties.Resources.ranni_ranni_the_witch;
+            this.pictureBox1.Location = new System.Drawing.Point(275, 109);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(306, 249);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // buttonCloseForms
             // 
@@ -194,6 +209,8 @@
             this.panelMenu.ResumeLayout(false);
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
+            this.panelDesktopPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -211,6 +228,7 @@
         private System.Windows.Forms.Label labelTituloPrincipal;
         private System.IO.Ports.SerialPort serialPort;
         private System.Windows.Forms.Button buttonCloseForms;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

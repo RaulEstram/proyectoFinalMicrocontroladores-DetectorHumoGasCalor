@@ -73,6 +73,14 @@ namespace proyectoFinalMicros
             }
         }
 
+        private void buttonMenuOtros_Click(object sender, EventArgs e)
+        {
+            Reset();
+            openChildForm(new Forms.Otros(), sender);
+            buttonSelected();
+            buttonMenuOtros.BackColor = Color.FromArgb(213, 40, 42);
+        }
+
         // funcion para abrir un form
         private void openChildForm(Form childForm, object btnSender){
             if (activeForm != null){

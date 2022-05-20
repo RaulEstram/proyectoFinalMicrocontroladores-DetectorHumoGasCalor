@@ -83,9 +83,39 @@ namespace proyectoFinalMicros.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kon {
+            get {
+                object obj = ResourceManager.GetObject("kon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LUZ_VERDE {
             get {
                 object obj = ResourceManager.GetObject("LUZ VERDE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mona_china_bailando {
+            get {
+                object obj = ResourceManager.GetObject("mona china bailando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ranni_ranni_the_witch {
+            get {
+                object obj = ResourceManager.GetObject("ranni-ranni-the-witch", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
