@@ -16,5 +16,10 @@ namespace proyectoFinalMicros.Forms
         {
             InitializeComponent();
         }
+
+        private void buttonGit_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/RaulEstram/proyectoFinalMicrocontroladores-DetectorHumoGasCalor");
+        }
     }
 }

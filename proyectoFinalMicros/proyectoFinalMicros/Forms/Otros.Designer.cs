@@ -28,26 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonGit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonGit
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Georgia", 12F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 316);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(184, 33);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "GitHub del Proyecto";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonGit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonGit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
+            this.buttonGit.FlatAppearance.BorderSize = 0;
+            this.buttonGit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonGit.Font = new System.Drawing.Font("Georgia", 12F);
+            this.buttonGit.ForeColor = System.Drawing.Color.White;
+            this.buttonGit.Location = new System.Drawing.Point(12, 316);
+            this.buttonGit.Name = "buttonGit";
+            this.buttonGit.Size = new System.Drawing.Size(184, 33);
+            this.buttonGit.TabIndex = 0;
+            this.buttonGit.Text = "GitHub del Proyecto";
+            this.buttonGit.UseVisualStyleBackColor = false;
+            this.buttonGit.Click += new System.EventHandler(this.buttonGit_Click);
             // 
             // label1
             // 
@@ -74,10 +76,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::proyectoFinalMicros.Properties.Resources.mona_china_bailando;
-            this.pictureBox1.Location = new System.Drawing.Point(361, 157);
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::proyectoFinalMicros.Properties.Resources.monachinabailandokawai;
+            this.pictureBox1.Location = new System.Drawing.Point(257, 102);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 201);
+            this.pictureBox1.Size = new System.Drawing.Size(276, 258);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -89,11 +92,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(534, 361);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonGit);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Otros";
-            this.Text = "b";
+            this.Text = "Otros";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -102,7 +105,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonGit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
