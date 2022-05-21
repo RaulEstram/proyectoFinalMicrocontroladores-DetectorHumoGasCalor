@@ -61,17 +61,17 @@ namespace proyectoFinalMicros.Forms
                         Form1.estadoBuzzer = true;
                     }
                     // gas
-                    if (int.Parse(data[1]) < 150)
+                    if (int.Parse(data[1]) < 400)
                     {
                         pictureBoxGas.Image = Form1.smokeNormal;
                         Form1.estadoGas = false;
                     }
-                    else if (int.Parse(data[1]) < 350)
+                    else if (int.Parse(data[1]) < 700)
                     {
                         pictureBoxGas.Image = Form1.fire;
                         Form1.estadoGas = true;
                     }
-                    else if (int.Parse(data[1]) >= 350)
+                    else if (int.Parse(data[1]) >= 700)
                     {
                         pictureBoxGas.Image = Form1.fire;
                         Form1.estadoGas = true;

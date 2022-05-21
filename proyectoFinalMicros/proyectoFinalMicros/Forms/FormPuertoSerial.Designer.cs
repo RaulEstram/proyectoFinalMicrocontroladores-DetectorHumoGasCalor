@@ -90,7 +90,6 @@
             // 
             // buttonConectar
             // 
-            this.buttonConectar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonConectar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
             this.buttonConectar.FlatAppearance.BorderSize = 0;
             this.buttonConectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
