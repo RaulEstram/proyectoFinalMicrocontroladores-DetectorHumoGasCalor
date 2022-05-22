@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.buttonMenuOtros = new System.Windows.Forms.Button();
             this.buttonMenuManual = new System.Windows.Forms.Button();
@@ -36,11 +37,11 @@
             this.buttonMenuSerial = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.buttonCloseForms = new System.Windows.Forms.Button();
             this.labelTituloPrincipal = new System.Windows.Forms.Label();
             this.panelDesktopPanel = new System.Windows.Forms.Panel();
-            this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonCloseForms = new System.Windows.Forms.Button();
+            this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.panelMenu.SuspendLayout();
             this.panelHeader.SuspendLayout();
             this.panelDesktopPanel.SuspendLayout();
@@ -148,6 +149,21 @@
             this.panelHeader.Size = new System.Drawing.Size(584, 100);
             this.panelHeader.TabIndex = 1;
             // 
+            // buttonCloseForms
+            // 
+            this.buttonCloseForms.BackgroundImage = global::proyectoFinalMicros.Properties.Resources.close;
+            this.buttonCloseForms.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonCloseForms.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCloseForms.FlatAppearance.BorderSize = 0;
+            this.buttonCloseForms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCloseForms.Location = new System.Drawing.Point(26, 40);
+            this.buttonCloseForms.Name = "buttonCloseForms";
+            this.buttonCloseForms.Size = new System.Drawing.Size(20, 20);
+            this.buttonCloseForms.TabIndex = 1;
+            this.buttonCloseForms.UseVisualStyleBackColor = true;
+            this.buttonCloseForms.Visible = false;
+            this.buttonCloseForms.Click += new System.EventHandler(this.buttonCloseForms_Click);
+            // 
             // labelTituloPrincipal
             // 
             this.labelTituloPrincipal.AutoSize = true;
@@ -180,21 +196,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // buttonCloseForms
-            // 
-            this.buttonCloseForms.BackgroundImage = global::proyectoFinalMicros.Properties.Resources.close;
-            this.buttonCloseForms.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCloseForms.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonCloseForms.FlatAppearance.BorderSize = 0;
-            this.buttonCloseForms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCloseForms.Location = new System.Drawing.Point(26, 40);
-            this.buttonCloseForms.Name = "buttonCloseForms";
-            this.buttonCloseForms.Size = new System.Drawing.Size(20, 20);
-            this.buttonCloseForms.TabIndex = 1;
-            this.buttonCloseForms.UseVisualStyleBackColor = true;
-            this.buttonCloseForms.Visible = false;
-            this.buttonCloseForms.Click += new System.EventHandler(this.buttonCloseForms_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,6 +204,7 @@
             this.Controls.Add(this.panelDesktopPanel);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panelMenu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(750, 500);
             this.Name = "Form1";
             this.Text = "Form1";
